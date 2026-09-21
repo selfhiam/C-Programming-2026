@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void){
+    double height, weight, bmi;
+
+    scanf("%lf %lf", &height, &weight);
+
+    bmi = weight / (height * height);
+
+    printf("bmi=%.2f\n", bmi);
+    return 0;
+}
